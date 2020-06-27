@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+.history
+.vscode
+node_modules
+dist
+package-lock.json
+yarn.lock
+TODO

@@ -1,0 +1,55 @@
+{
+  "name": "sec-to-format",
+  "version": "0.1.0",
+  "description": "Convert unix timestamp seconds to readable time format.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atayahmet/sec-to-format.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atayahmet/sec-to-format/issues"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "author": "Ahmet ATAY",
+  "module": "dist/sec-to-format.esm.js",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "tsdx": "^0.13.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  },
+  "keywords": [
+    "formatter",
+    "seconds",
+    "unix",
+    "timestamp"
+  ]
+}
