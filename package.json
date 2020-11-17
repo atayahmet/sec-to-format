@@ -1,6 +1,6 @@
 {
   "name": "sec-to-format",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert unix timestamp seconds to readable time format.",
   "license": "MIT",
   "main": "dist/index.js",
